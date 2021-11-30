@@ -17,13 +17,18 @@ html,body{
     color: #F9FaF8;
     font-size: 24px;
     display: flex;
+    align-items: center;
     background-color: #1F2937;
-    padding: 5px 150px;
+    padding: 5px 350px;
     gap: 20px;
     }
 .push-right {
     flex: 1;
     margin-right: auto;
+}
+.push-right img{
+    height: 60px;
+    width: auto;
 }
 .links {
     display: flex;
@@ -32,25 +37,125 @@ a{
     font-size: 18px;
     color: #E5E7EB;
     padding-top: inherit;
+    text-decoration: none;
 }
 .main-info {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 220px;
     padding: 40px 150px;
 }
 .main-info div {
+    width: 500px;
     flex-shrink: 1;
-    margin-right: auto;
 }
 img {
-    flex-shrink: 1;
     width: 500px;
+    flex-shrink: 1;
     height: auto;
+    border-radius: 15px;
 }
 .hero-main-text{
     font-size: 48px;
     font-weight: 1000;
-    color: #F9FAF8
+    color: #F9FAF8;
+}
+.hero-secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.first-button, .second-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.first-button{
+    border: none;
+}
+.second-button{
+    border: 2px white solid;  
+}
+.examples {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    padding: 50px 25px;
+    gap: 50px;
+}
+.flex-images {
+    display: flex;
+    gap: 40px;
+}
+.examples-header{
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+}
+.example-item
+{
+    width: 200px;
+    font-size: 15px;
+    text-align: center;
+    color: #7f8081;
+}
+.example-item img {
+    width: inherit;
+    height: 250px;
+    border: 3px #3882F6 solid;
+    border-radius: 15px;
+}
+.inspiring-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: #E5E7EB;
+}
+.quote-flex{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+}
+.quote-cite {
+    align-self: flex-end;
+    font-weight: bold;
+}
+.sign-up-flex {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 50%;
+    background-color: #3882F6;
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+    
+}
+.container-header {
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+.container-info {
+    font-size: 15px;
+    color: #E5E7EB;
+}
+.footer{
+    height: 72px;
+    background-color: #1F2937;
 }
